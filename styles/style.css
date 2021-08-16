@@ -1,0 +1,134 @@
+**,*::before,*::after {outline: 1px solid rgb(207, 5, 22)}
+
+@font-face {
+  src:
+  url(../vendor/fonts/inter/Inter-Bold.woff) format('woff'),
+  url(./vendor/fonts/inter/Inter-Bold.woff2) format('woff2');
+  font-family: 'Inter';
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  src:
+  url(../vendor/fonts/inter/Inter-Regular.woff) format('woff'),
+  url(../vendor/fonts/inter/Inter-Regular.woff2) format('woff2');
+  font-family: 'Inter';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page {
+  max-width: 1184px; /*Возможно, исправить*/
+  background-color: #2a2c2f;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+  box-sizing: border-box;
+  outline: 1px solid rgb(207, 5, 22);
+}
+
+.header {
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  outline: 1px solid rgb(207, 5, 22);
+}
+
+.page__header {
+
+}
+
+.header__logo {
+width: 176px;
+height: 52px;
+outline: 1px solid rgb(207, 5, 22);
+}
+
+.header__lang-links {
+  display: flex;
+  outline: 1px solid rgb(207, 5, 22);
+}
+
+.header__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+
+.header__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.header__link_hover {
+  text-decoration: underline;
+}
+
+.header__element {
+  margin: 0 20px 10px 0;
+}
+.header__element:last-of-type {
+  margin-right: 0;
+}
+
+.lead {
+  max-width: 984px;
+  padding-top: 56px;
+  margin: auto;
+}
+
+.page__lead {
+
+}
+
+.lead__title {
+  max-width: 720px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  outline: 1px solid rgb(207, 5, 22);
+}
+
+.lead__subtitle {
+  max-width: 640px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 32px auto 64px;
+  outline: 1px solid rgb(207, 5, 22);
+}
+
+.lead__image {
+ width: 100%;
+}
+
+.lead__caption {
+  margin: 8px 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  outline: 1px solid rgb(207, 5, 22);
+}
