@@ -129,6 +129,7 @@ height: 52px;
 .intro {
   max-width: 690px;
   padding: 92px 394px 0 100px; /*Под вопросом*/
+  margin: 0 auto;
 }
 
 .page__intro {
@@ -265,39 +266,115 @@ height: 52px;
 
 .cover {
   max-width: 1184px;
-  min-height: 740px;
   margin: 92px auto 0;
-  background-image: url('../images/cover-trains.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .cover__link {
   text-decoration: none;
   color: #ffffff;
+  min-height: 740px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/cover-trains.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*NEW*/
+.cover__link::before {
+  content: '';
+  background-color: #2a2c2f;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .2;
+  transition: opacity .3s ease-in;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
 }
 
 .cover__title {
   max-width: 560px;
-  margin: 0;
+  margin: 245px 0 32px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
+  z-index: 3;
 }
 
 .cover__subtitle {
+  margin-bottom: 245px;
   max-width: 360px;;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  z-index: 3;
+}
+
+.footer {
+ display: flex;
+ align-items: baseline;
+ justify-content: space-between;
+}
+
+.page__footer {
+  max-width: 1184px;
+  padding: 92px 48px 24px;
+  /*margin: auto*/
+}
+
+.footer__menu {
+
+}
+
+.footer__menu-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.footer__link-item {
+  margin-right: 18px;
+}
+
+.footer__link-item:last-of-type {
+  margin-right: 0;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.page__link {
+  transition: opacity .3s ease;
+}
+
+.page__link:hover {
+  opacity: .6;
 }
