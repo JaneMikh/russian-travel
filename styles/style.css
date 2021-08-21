@@ -262,3 +262,42 @@ height: 52px;
 .place__paragraph:last-child {
   margin: 0;
 }
+
+.cover {
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 92px auto 0;
+  background-image: url('../images/cover-trains.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cover__title {
+  max-width: 560px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+}
+
+.cover__subtitle {
+  max-width: 360px;;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
