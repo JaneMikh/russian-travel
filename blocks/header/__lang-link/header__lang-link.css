@@ -1,0 +1,15 @@
+.header__lang-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+ /*Точка перегиба выбрана исходя из размера изображения для мобильных устройств в альбомной ориентации*/
+@media all and (max-width: 480px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

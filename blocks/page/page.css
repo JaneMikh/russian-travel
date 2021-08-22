@@ -1,0 +1,17 @@
+/*Потом удалить*/
+*,*::before,*::after {outline: 1px solid rgb(99, 5, 207)}
+
+.page {
+  max-width: 1280px;
+  background-color: #2a2c2f;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  margin: auto;
+  box-sizing: border-box;
+}
