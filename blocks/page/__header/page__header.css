@@ -1,24 +1,18 @@
 .page__header {
-  max-width: 1184px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding-top: 28px;
-}
-
-@media screen and (max-width: 1279px) {
-  .page__header {
-    width: 90%;
-  }
+  padding: 28px 48px 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {
   .page__header {
-    width: 94%;
+    padding: 28px 24px 0;
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 767px) {
   .page__header {
-    width: 90%;
-    padding-top: 16px;
+    padding: 16px 16px 0;
   }
 }

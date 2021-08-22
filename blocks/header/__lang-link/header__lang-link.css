@@ -6,8 +6,8 @@
   line-height: 28px;
   color: #ffffff;
 }
- /*Точка перегиба выбрана исходя из размера изображения для мобильных устройств в альбомной ориентации*/
-@media all and (max-width: 480px) {
+
+@media all and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
