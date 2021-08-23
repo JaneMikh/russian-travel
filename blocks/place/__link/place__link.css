@@ -6,9 +6,3 @@
   text-decoration-line: underline;
   color: inherit;
 }
-
-@media all and (max-width: 767px) {
-  .place__link {
-    margin-bottom: 32px;
-  }
-}
