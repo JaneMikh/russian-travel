@@ -7,16 +7,21 @@
   align-items: center;
 }
 
-
-/*@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .header {
-    padding: 28px 24px 0;
+    width: 90.6%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    width: 94%;
   }
 }
 
 @media all and (max-width: 767px) {
   .header {
-    padding: 16px 16px 0;
+    width: 90%;
+    padding-top: 16px;
   }
 }
-*/
