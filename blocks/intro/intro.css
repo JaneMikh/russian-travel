@@ -13,11 +13,13 @@
 @media screen and (max-width: 1023px) {
   .intro {
     width: 94%;
+    padding-top: 88px;
   }
 }
 
 @media all and (max-width: 767px) {
   .intro {
     width: 90%;
+    padding-top: 64px;
   }
 }
